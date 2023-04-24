@@ -97,7 +97,7 @@ public class CommonMethods extends TestBase {
 
     /** Capture and save screenshot **/
     public static void takeScreenshot(){
-        String path = System.getProperty("user.dir")+"//TestReport//screenshots";
+        String path = System.getProperty("user.dir")+"//TestReport//screenshots//";
        File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
        String filePath =path + "screenshot" +getCurrentTimestamp()+ ".png";
         try {
