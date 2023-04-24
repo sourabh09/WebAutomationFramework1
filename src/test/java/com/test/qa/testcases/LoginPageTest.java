@@ -49,7 +49,7 @@ public class LoginPageTest extends TestBase {
         headerLinks.verifyClickOnSignInLink();
         Assert.assertTrue(loginPage.verifySignInPageHeading());
         loginPage.verifyLogin("","");
-        Assert.assertFalse(loginPage.verifySignInPageHeading());
+        Assert.assertTrue(loginPage.verifySignInPageHeading());
     }
 
 

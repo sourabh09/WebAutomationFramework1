@@ -3,7 +3,8 @@
 
 Automation suite for web automation
 
-## Tech stack
+## Tech Stack
+* Selenium Webdriver
 * Written in JAVA
 * Implemented using TestNG
 * Build Tool - Maven
