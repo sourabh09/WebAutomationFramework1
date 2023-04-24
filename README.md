@@ -9,7 +9,7 @@ Automation suite for web automation
 * Implemented using TestNG
 * Build Tool - Maven
 * Implemented Page Object Model Design Pattern using PageFactory
-* Extent Reporting 
+* Extent Reporting 5
 * Log4j2 Implemented for logging
 
 ## Browsers Supported
